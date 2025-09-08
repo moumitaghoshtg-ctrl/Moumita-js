@@ -49,3 +49,42 @@ console.log(typeof stringNum);
 //null => "null"
 //undefined => "undefined"
 //NaN => "NaN"
+
+//  ***********************************   OPERATIONS   **************************************
+
+//Application memes:)
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2**3); //2^3
+//console.log(2/2);
+//console.log(5%2); //remainder
+
+let str1 = "hello"
+let str2 = "world"
+let str3 = str1 + " " + str2
+console.log(str3);
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32
+// the conclusion from the above case is if string is present first then everything will be converted to string, otherwise addition will be done first.
+console.log(true)
+console.log(+true)  //convert to number = 1
+//console.log(true+) ~ this will give error;
+//Assignment operator:
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+console.log(num1, num2, num3);
+
+let gameCounter = 100
+//gameCounter = gameCounter + 1
+gameCounter ++  // postfix increment operator
+console.log(gameCounter);
+--gameCounter //prefix decrement operator
+console.log(gameCounter);
